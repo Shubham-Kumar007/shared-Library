@@ -7,7 +7,10 @@ pipeline {
         stage('Demo') {
             steps {
                 welcome("Shubham Kumar")
-                calculator.add(10,50)
+                script{
+                 calculator.add(10,50)
+                }
+   
             }
         }
     }
