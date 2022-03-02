@@ -7,6 +7,7 @@ pipeline {
         stage('Demo') {
             steps {
                 welcome("Shubham Kumar")
+                calculator(10,50)
             }
         }
     }
